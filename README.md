@@ -8,13 +8,36 @@ This is a CMS-style blog site where developers can publish their posts and comme
 
 1. [Description](#description)
 2. [Usage](#usage)
-3. [Credits](#credits)
+3. [Heroku](#heroku)
 4. [License](#license)
 5. [Questions](#questions)
 
 ## Usage
+This app uses: 
+> - bcrypt 5.0.0
+> - connect-session-sequelize 7.0.4
+> - dotenv 8.2.0
+> - express 4.17.1
+> - express-handlebars 5.2.0
+> - express-session 1.17.1
+> - mysql2 2.2.5
+> - sequelize 6.3.5
 
-## Credits
+To use locally, run:
+> npm i
+
+Then create the database using MySql:
+> - mysql -u root -p
+> - enter password
+> - source db/schema.sql;
+> - quit
+
+Then start the server:
+> node server.js
+
+
+## Heroku
+https://tech-connect.herokuapp.com/
 
 ## License
 MIT License - see https://opensource.org/licenses/ to get more information about this license.
